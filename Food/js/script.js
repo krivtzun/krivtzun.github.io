@@ -8,7 +8,7 @@ import forms from './modules/forms';
 import {openModal} from './modules/modal';
 window.addEventListener('DOMContentLoaded', () => { 
     
-    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 30000);
+    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 3000);
 
     tabs('.tabheader__item','.tabcontent', '.tabheader__items', 'tabheader__item_active');
     calculator();
